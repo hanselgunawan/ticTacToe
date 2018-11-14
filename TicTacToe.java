@@ -38,7 +38,6 @@ public class TicTacToe {
 
       String[] user_input = sc.nextLine().split(",");
       int x_coord = Integer.parseInt(user_input[0]);
-      int y_coord = Integer.parseInt(user_input[1]);
 
       if(board[y_coord][x_coord] != 0) {
         System.out.println("That place is chosen by other player. Try other place.");
